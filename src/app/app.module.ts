@@ -11,7 +11,9 @@ import {
   MatToolbarModule,
   MatMenuModule,
   MatIconModule,
-  MatButtonModule
+  MatButtonModule,
+  MatDividerModule,
+  MatListModule
 } from '@angular/material';
 import { HeaderComponent } from './header/header.component';
 
@@ -29,7 +31,9 @@ import { HeaderComponent } from './header/header.component';
     MatToolbarModule,
     MatMenuModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDividerModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
