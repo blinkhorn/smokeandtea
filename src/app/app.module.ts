@@ -13,7 +13,8 @@ import {
   MatIconModule,
   MatButtonModule,
   MatDividerModule,
-  MatListModule
+  MatListModule,
+  MatTabsModule,
 } from '@angular/material';
 import { HeaderComponent } from './header/header.component';
 
@@ -33,7 +34,8 @@ import { HeaderComponent } from './header/header.component';
     MatIconModule,
     MatButtonModule,
     MatDividerModule,
-    MatListModule
+    MatListModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
