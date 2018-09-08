@@ -1,5 +1,4 @@
 <mat-toolbar color="primary" class="toolbar-content">
-
   <span class="empty-space"></span>
   <div class="menu-content">
     <button mat-icon-button [matMenuTriggerFor]="menu">
@@ -8,18 +7,28 @@
       </button>
     </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item>
-        <mat-icon>dialpad</mat-icon>
-        <span>Redial</span>
-      </button>
-      <button mat-menu-item disabled>
-        <mat-icon>voicemail</mat-icon>
-        <span>Check voicemail</span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>notifications_off</mat-icon>
-        <span>Disable alerts</span>
-      </button>
+      <button mat-menu-item [matMenuTriggerFor]="music">Music</button>
+      <button mat-menu-item [matMenuTriggerFor]="socials">Socials</button>
+      <button mat-menu-item [matMenuTriggerFor]="about">About</button>
+    </mat-menu>
+
+    <mat-menu #music="matMenu">
+      <a mat-menu-item href="#">Spotify</a>
+      <a mat-menu-item href="#">Soundcloud</a>
+      <a mat-menu-item href="#">Apple Music</a>
+      <a mat-menu-item href="#">Elsewhere ...</a>
+    </mat-menu>
+
+    <mat-menu #socials="matMenu">
+      <a mat-menu-item href="#">Facebook</a>
+      <a mat-menu-item href="#">Instagram</a>
+      <a mat-menu-item href="#">YouTube</a>
+    </mat-menu>
+
+    <mat-menu #about="matMenu">
+      <a mat-menu-item href="#">Smoke & Tea</a>
+      <a mat-menu-item href="#">Outputmessage</a>
+      <a mat-menu-item href="#">Blinkhorn</a>
     </mat-menu>
   </div>
 </mat-toolbar>

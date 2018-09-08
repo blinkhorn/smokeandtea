@@ -17,12 +17,14 @@ import {
   MatTabsModule,
 } from '@angular/material';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { HeaderComponent } from './header/header.component';
     MatButtonModule,
     MatDividerModule,
     MatListModule,
-    MatTabsModule
+    MatTabsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
