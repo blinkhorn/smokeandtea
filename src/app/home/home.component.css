@@ -1,7 +1,8 @@
 main {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: row; */
   align-items: center;
+  justify-content: center;
   margin: 4rem;
   text-align: center;
 }
@@ -10,12 +11,7 @@ main {
   margin: 10rem;
 }
 
-.the-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.example-small-box, .example-large-box {
+.small-box, .large-box {
   display: flex;
   align-items: center;
   justify-content: center;
