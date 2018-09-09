@@ -1,3 +1,18 @@
 .empty-space {
   flex: 1 1 auto;
 }
+
+mat-toolbar {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: right;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  padding: 0 16px 0 0;
+}
+
