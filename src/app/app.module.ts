@@ -14,7 +14,8 @@ import {
   MatButtonModule,
   MatDividerModule,
   MatListModule,
-  MatTabsModule
+  MatTabsModule,
+  MatExpansionModule
 } from '@angular/material';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -38,7 +39,8 @@ import { FooterComponent } from './footer/footer.component';
     MatDividerModule,
     MatListModule,
     MatTabsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatExpansionModule
 
   ],
   providers: [],
